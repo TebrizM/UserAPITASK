@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UserAPI</name>
+    </assembly>
+    <members>
+        <member name="M:UserAPI.Apps.ManageApp.Controllers.AccountsController.Login(UserAPI.Apps.ManageApp.DTOs.AccountDtos.LoginDto)">
+            <summary>
+            This endpoint returns a token
+            </summary>
+            <remarks>
+            Sample request:
+            
+                POST api/admin/accounts/login
+                {
+                    "username":"SuperAdmin",
+                    "password":"Admin123"
+                }
+            </remarks>
+            <param name="loginDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
